@@ -21,6 +21,7 @@
 		040F4CFA2559C2FF00C7B58F /* TitlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F4CF92559C2FF00C7B58F /* TitlesViewController.swift */; };
 		040F4CFF255AAC5F00C7B58F /* TitlesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F4CFE255AAC5F00C7B58F /* TitlesInteractor.swift */; };
 		040F4D04255AAC7E00C7B58F /* TitlesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F4D03255AAC7E00C7B58F /* TitlesRouter.swift */; };
+		040F4D2C255B316300C7B58F /* TitlesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F4D2B255B316300C7B58F /* TitlesService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		040F4CF92559C2FF00C7B58F /* TitlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlesViewController.swift; sourceTree = "<group>"; };
 		040F4CFE255AAC5F00C7B58F /* TitlesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlesInteractor.swift; sourceTree = "<group>"; };
 		040F4D03255AAC7E00C7B58F /* TitlesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlesRouter.swift; sourceTree = "<group>"; };
+		040F4D2B255B316300C7B58F /* TitlesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlesService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 		040F4CDE2559C01D00C7B58F /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				040F4D2B255B316300C7B58F /* TitlesService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 				040F4CFF255AAC5F00C7B58F /* TitlesInteractor.swift in Sources */,
 				040F4CE42559C14400C7B58F /* TitlesConfigurator.swift in Sources */,
 				040F4CFA2559C2FF00C7B58F /* TitlesViewController.swift in Sources */,
+				040F4D2C255B316300C7B58F /* TitlesService.swift in Sources */,
 				040F4CAE2559BE1100C7B58F /* VIPDemoApp.xcdatamodeld in Sources */,
 				040F4CA82559BE1100C7B58F /* ViewController.swift in Sources */,
 				040F4CA42559BE1100C7B58F /* AppDelegate.swift in Sources */,
