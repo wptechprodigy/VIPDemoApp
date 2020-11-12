@@ -17,7 +17,7 @@ class TitleDetailsConfigurator {
         
         interactor.titleId = titleId
         
-        viewController.TitleDetailsView = view
+        viewController.titleDetailsView = view
         viewController.interactor = interactor
         
         interactor.presenter = presenter
