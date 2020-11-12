@@ -17,8 +17,8 @@ protocol TitlesPresenterOutput: class {
     func presenter(didDeleteItemAtIndex index: Int)
     func presenter(didFailDeleteItemAtIndex index: Int, message: String)
     
-    func presenter(didObtainId id: String)
-    func presenter(didFailObtainId message: String)
+    func presenter(didObtainItemId id: String)
+    func presenter(didFailObtainItemId message: String)
 }
 
 class TitlesViewController: UIViewController {
@@ -115,11 +115,11 @@ extension TitlesViewController: TitlesPresenterOutput {
         showError(with: message)
     }
     
-    func presenter(didObtainId id: String) {
+    func presenter(didObtainItemId id: String) {
         self.router?.routeToDetail(with: id)
     }
     
-    func presenter(didFailObtainId message: String) {
+    func presenter(didFailObtainItemId message: String) {
         showError(with: message)
     }
 }

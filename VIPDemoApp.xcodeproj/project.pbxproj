@@ -22,6 +22,7 @@
 		040F4CFF255AAC5F00C7B58F /* TitlesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F4CFE255AAC5F00C7B58F /* TitlesInteractor.swift */; };
 		040F4D04255AAC7E00C7B58F /* TitlesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F4D03255AAC7E00C7B58F /* TitlesRouter.swift */; };
 		040F4D2C255B316300C7B58F /* TitlesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F4D2B255B316300C7B58F /* TitlesService.swift */; };
+		041EA98F255D1D2200986069 /* TitlesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041EA98E255D1D2200986069 /* TitlesPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		040F4CFE255AAC5F00C7B58F /* TitlesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlesInteractor.swift; sourceTree = "<group>"; };
 		040F4D03255AAC7E00C7B58F /* TitlesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlesRouter.swift; sourceTree = "<group>"; };
 		040F4D2B255B316300C7B58F /* TitlesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlesService.swift; sourceTree = "<group>"; };
+		041EA98E255D1D2200986069 /* TitlesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlesPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +220,7 @@
 				040F4CFE255AAC5F00C7B58F /* TitlesInteractor.swift */,
 				040F4D03255AAC7E00C7B58F /* TitlesRouter.swift */,
 				040F4CE32559C14400C7B58F /* TitlesConfigurator.swift */,
+				041EA98E255D1D2200986069 /* TitlesPresenter.swift */,
 			);
 			path = Titles;
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				040F4CEC2559C1B100C7B58F /* TitlesView.swift in Sources */,
+				041EA98F255D1D2200986069 /* TitlesPresenter.swift in Sources */,
 				040F4CFF255AAC5F00C7B58F /* TitlesInteractor.swift in Sources */,
 				040F4CE42559C14400C7B58F /* TitlesConfigurator.swift in Sources */,
 				040F4CFA2559C2FF00C7B58F /* TitlesViewController.swift in Sources */,
