@@ -21,7 +21,7 @@ protocol TitlesPresenter: class {
     func interactor(didFailFindTitle error: Error)
 }
 
-class TitlePresenterImplementation: TitlesPresenter {
+class TitlesPresenterImplementation: TitlesPresenter {
     weak var viewController: TitlesPresenterOutput?
     
     func interactor(didRetrieveTitles titles: [Title]) {
